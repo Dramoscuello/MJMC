@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
 	}
 
 	//open/close primary navigation
-	$('.cd-primary-nav-trigger').on('click', function(){
+	$('.hide-show-menu').on('click', function(){
 		$('.cd-menu-icon').toggleClass('is-clicked'); 
 		$('.cd-header').toggleClass('menu-is-open');
 		
