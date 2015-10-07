@@ -12,9 +12,12 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/modal-svg.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/preview-products.css">
+	<link rel="stylesheet" href="css/form.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<!-- retrieved from codyhouse.co/ -->
 	<header class="cd-header">
 		<div class="cd-logo"><a href="/"><img src="img/logo.png" alt="Logo"></a></div>
 
@@ -27,8 +30,8 @@
 		<ul class="cd-primary-nav">
 			<li class="hide-show-menu"><a href="#">Inicio</a></li>
 			<li class="hide-show-menu"><a href="#acerca">Acerca de nosotros</a></li>
-			<li class="hide-show-menu"><a href="#">Nuestro trabajo</a></li>
-			<li class="hide-show-menu"><a href="#">Contacto</a></li>
+			<li class="hide-show-menu"><a href="#nuestro">Nuestro trabajo</a></li>
+			<li class="hide-show-menu"><a href="#contacto">Contacto</a></li>
 
 			<li class="cd-label">Siguenos</li>
 			
@@ -48,15 +51,146 @@
 	
 	
 	<div id="acerca">
-		<div class="grupo">
-			<div class="caja tablet-1-3 base-100 articles"><h2>Misión</h2><img src="http://lorempixel.com/200/200/business/" class="circulo"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur deserunt voluptas at debitis possimus praesentium in facilis tempora ratione hic dicta, cupiditate aspernatur qui dignissimos minus nulla odio maxime, eos.</p></div>
-			<div class="caja tablet-1-3 base-100 articles"><h2>Visión</h2><img src="http://lorempixel.com/200/200/sports/" class="circulo"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae illo modi quasi harum doloremque veritatis placeat est ut ea alias quibusdam assumenda voluptate dolorum, accusamus impedit dolore repudiandae asperiores dignissimos.</p></div>
-			<div class="caja tablet-1-3 base-100 articles"><h2>Politicas de calidad</h2><img src="http://lorempixel.com/200/200/people/" class="circulo"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, molestiae laboriosam modi eaque tempore fuga suscipit maiores porro alias fugiat, odit quas animi sapiente vero a nisi dolorem illo reprehenderit.</p></div>
+		<div class="grupo total">
+			<div class="caja tablet-1-3 base-100 articles"><h2>Misión</h2><img src="http://lorempixel.com/200/200/business/" class="circulo"><p>Somos una empresa dedicada a la confección de dotaciones empresariales y otras prendas textiles con una excelente calidad en materia prima, y atención eficiente a todos nuestros clientes, brindando comodidad, satisfacción y entrega oportuna de nuestros productos.</p></div>
+			<div class="caja tablet-1-3 base-100 articles"><h2>Visión</h2><img src="http://lorempixel.com/200/200/sports/" class="circulo"><p>Ser una empresa líder en el mercado en la elaboración de uniformes y otras prendas textiles, adquiriendo las mejores técnicas para la confección, comprometidos con la innovación permanente de nuestros procesos, para ofrecer productos con calidad y mantener o superar nuestros niveles de ventas en el mediano plazo.</p></div>
+			<div class="caja tablet-1-3 base-100 articles"><h2>Politicas de calidad</h2><img src="http://lorempixel.com/200/200/people/" class="circulo"><p>MJ&MC es una industria de confecciones de prendas textiles empresariales,  que busca un excelente posicionamiento en el mercado, quiere lograr esto con productos de buen diseño, cómodos y  de calidad, utilizando  la mejor materia prima, mano de obra calificada, capaz y en constante mejoramiento y las herramientas tecnológicas necesarias para el buen desarrollo de sus actividades; tiene como prioridad sus clientes, por ello quiere optimizar siempre  el cumplimiento de los requerimientos y necesidades que estos le brindan. Para alcanzar este fin planea, ejecuta, verifica y controla sus procesos productivos, buscando la mejora continua de estos. 
+Es de suma importancia para la consecución de las metas corporativas la sostenibilidad financiera y administrativa, pues solo así podrá encaminar todos sus recursos y herramientas a la fidelización y captación de los clientes potenciales.
+</p></div>
 		</div>
 	</div>
 	<div id="nuestro">
-		
+	<div class="grupo">
+		<div class="caja"><h2>Nuestro trabajo</h2></div>
 	</div>
+		<ul class="cd-gallery">
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/officina-mujer.jpg">
+					</li>
+
+					<li class="move-right" data-sale="true">
+						<img src="img/officina-mujer2.jpg">
+					</li>
+
+					<li>
+						<img src="img/oficina-hombre.jpg">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#">Oficina</a></b>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/trabajo-pesado1.jpg">
+					</li>
+
+					<li class="move-right">
+						<img src="img/trabajo-2.jpg">
+					</li>
+
+					<li>
+						<img src="img/trabajo3.jpg">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#">Trabajo pesado</a></b>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/guantes5b.jpg">
+					</li>
+
+					<li class="move-right">
+						<img src="img/250-410-large.jpg">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#">Implementos</a></b>
+			</div> <!-- cd-item-info -->
+		</li>
+
+		<li>
+			<a href="#">
+				<ul class="cd-item-wrapper">
+					<li class="selected">
+						<img src="img/ugmonk-tshirt-1.jpg">
+					</li>
+
+					<li class="move-right" data-sale="true">
+						<img src="img/ugmonk-tshirt-2.jpg">
+					</li>
+
+					<li>
+						<img src="img/ugmonk-tshirt-3.jpg">
+					</li>
+				</ul> <!-- cd-item-wrapper -->
+			</a>
+
+			<div class="cd-item-info">
+				<b><a href="#">Uniformes</a></b>
+			</div> <!-- cd-item-info -->
+		</li>
+	</ul> <!-- cd-gallery -->
+	</div>
+	
+	<div id="contacto">
+	<div class="grupo">
+		<div class="caja"><h2>contacto</h2></div>
+	</div>
+		<form class="cd-form floating-labels">
+		<fieldset>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-name">Name</label>
+				<input class="user" type="text" name="cd-name" id="cd-name" required>
+		    </div> 
+			<div class="icon">
+		    	<label class="cd-label" for="cd-email">Email</label>
+				<input class="email error" type="email" name="cd-email" id="cd-email" required>
+		    </div>
+		    <div class="icon">
+		    	<label class="cd-label" for="cd-company">Asunto</label>
+				<input class="company" type="text" name="cd-company" id="cd-company">
+		    </div> 
+
+		    
+		</fieldset>
+
+		<fieldset>
+
+			<div class="icon">
+				<label class="cd-label" for="cd-textarea">Escribenos algo...</label>
+      			<textarea class="message" name="cd-textarea" id="cd-textarea" required></textarea>
+			</div>
+
+			<div>
+		      	<input type="submit" value="Enviar">
+		    </div>
+		</fieldset>
+	</form>
+	</div>
+	<footer>
+		<div class="grupo">
+			<div class="caja">Powered by Ads marketing digital</div>
+		</div>
+	</footer>
 	
 	
 	
@@ -86,10 +220,37 @@
 		</div>
 
 		<div class="cd-modal-content">
-		<h3>Quienes somos</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.</p>
+		<h3>QUIENES SOMOS</h3>
+			<p>Somos una empresa especializada en confecciones de prendas de vestir y uniformes para empresas e instituciones. Ofrecemos a nuestros clientes una gran variedad de alternativas para proyectar su imagen corporativa. Nuestros productos están elaborados con las mejores materias primas, para así entregar un producto final de alta calidad y logrando la satisfacción de todos los clientes.</p>
+			<h3>OBJETIVOS DE CALIDAD</h3>
+			<ul>
+				<li>Asegurar el cumplimiento mensual del margen mínimo de utilidades establecidas.</li>
+				<li>Maximizar la rentabilidad de la empresa en un 5% anual.</li>
+				<li>Velar por el cumplimiento de los indicadores de gestión determinados para medir la eficiencia de los procesos de la organización.</li>
+				<li>Atender oportunamente las solicitudes de los clientes según los tiempos establecidos previamente.</li>
+				<li>Proporcionar los mecanismos y recursos necesarios para asegurar que los funcionarios entiendan sus responsabilidades respecto al sistema de seguridad y salud en el trabajo.</li>
+				<li>Realizar control y seguimiento a los productos y servicios  suministrados por los proveedores.</li>
+				<li>Asegurar el buen estado y funcionamiento de nuestra planta de producción para asegurar el cubrimiento de nuestra demanda de productos.</li>
+				<li>Asegurar que  nuestras prendas  cumplan los requisitos de calidad establecidos por la empresa y los clientes, para así medir el grado de satisfacción que estas producen.</li>
+				<li>Mantener un enfoque de mejora continua en nuestro proceso productivo.</li>
+			</ul>
+			<h3>PRINCIPIOS ORGANIZACIONALES</h3>
+		<ul>
+			<li><strong>Servicio al cliente:</strong> Tenemos como prioridad a nuestros clientes, por ello nuestros procesos productivos están encaminados al cumplimiento de sus requerimientos y necesidades.</li>
+			<li><strong>Trabajo en Equipo:</strong> Queremos que nuestros trabajadores formen lazos de trabajo y confianza; dejando de lado diferencias para cumplir los objetivos organizacionales.</li>
+			<li><strong>Eficiencia:</strong> Queremos satisfacer las necesidades de nuestros clientes rápida y correctamente, sin sacrificar las características de calidad de nuestras  prendas.</li>
+			<li><strong>Excelencia:</strong> Queremos brindar los más altos estándares de calidad en las prendas que fabricamos, para entregar productos de primer nivel a nuestros clientes.</li>
+		</ul>
+		<h3>VALORES ORGANIZACIONALES</h3>
+		<ul>
+			<li><strong>Puntualidad:</strong> con las solicitudes de nuestros clientes según los tiempos que se establezcan según mutuo acuerdo.</li>
+			<li><strong>Respeto:</strong> hacia nuestros clientes y colaboradores, en cada una de nuestras labores y acciones</li>
+			<li><strong>Responsabilidad:</strong>En el  cumplimiento de lo que le ofrecemos a nuestros clientes, trabajamos para conseguir la satisfacción de estos con empeño y las mejores herramientas que tenemos.</li>
+			<li><strong>Asertividad:</strong>En la selección de mano de obra calificada, materiales y maquinaria para el óptimo funcionamiento de nuestro proceso productivo.</li>
+			<li><strong>Honestidad:</strong>los presupuestos y tiempos estipulados, para cada pedido, se hacen teniendo en cuenta todos los factores.</li>
+		</ul>
 		</div>
+		
 		<a href="#" class="modal-close">Close</a>
 	</div>
 	<!-- ventana modal svg-->
@@ -108,5 +269,13 @@
 	<!-- ventana modal de quienes somos -->
 	<script src="js/modal-svg.js"></script>
 	<script src="js/snap.svg-min.js"></script>
+	
+	<!-- preview products -->
+	<script src="js/jquery.mobile.min.js"></script>
+	<script src="js/preview-products.js"></script>
+	
+	
+	<!-- formulario de contacto -->
+	<script src="js/form.js"></script>
 </body> 
 </html>
