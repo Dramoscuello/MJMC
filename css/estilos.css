@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "FuturaBT-Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/ufonts.com_futurabt-bold-opentype.otf);
+    
+}
 #acerca, #nuestro, #instalacion{
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -17,6 +24,7 @@
 	text-align: center;
 }
 #contacto h2{
+	color: white;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -43,4 +51,19 @@ footer{
 }
 .galeria-instalacion ul{
 	list-style: none;
+}
+.text-hide{
+	display: none;
+}
+.link-show{
+	color: black;
+}
+.seguir-leyendo{
+	color: blue;
+}
+.texto-oculto{
+	display: none;
+}
+.texto-visible{
+	display: inline;
 }

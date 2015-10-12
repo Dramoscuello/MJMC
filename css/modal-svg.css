@@ -21,6 +21,12 @@ Patterns - reusable parts of our design
   background-color: #11539C;
   color: #f2f2f2;
 }
+@media only screen and (max-width: 768px) {
+  .no-touch .cd-btn {
+    background-color: #11539C;
+  color: #f2f2f2;
+  }
+} 
 
 /* -------------------------------- 
 
