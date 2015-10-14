@@ -142,7 +142,7 @@ Main components
   background-color: #03263d;
 }
 .cd-primary-nav-trigger .cd-menu-text {
-  color: #11539C;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
   /* hide the text on small devices */
@@ -163,7 +163,7 @@ Main components
   transform: translateX(-50%) translateY(-50%);
   width: 18px;
   height: 2px;
-  background-color: #11539C;
+  background-color: #ffffff;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -174,7 +174,7 @@ Main components
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #11539C;
+  background-color: #ffffff;
   right: 0;
   -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
   -moz-transition: -moz-transform .3s, top .3s, background-color 0s;
@@ -368,8 +368,7 @@ Main components
   transform: translateX(-50%) translateY(-50%);
   font-family: "FuturaBT-Bold", Impact, sans-serif;
     font-size: 50px;
-/*    color: #653301;*/
-    color: #11539C;
+    color: #C3232F;
     line-height: 61px;
     word-spacing: 0.1em;
     letter-spacing: -0.07em;
@@ -410,7 +409,7 @@ Main components
 	display: none;
   }
 }
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 300px) {
   .cd-intro {
     height: 700px;
   }
